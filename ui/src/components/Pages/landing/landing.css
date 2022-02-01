@@ -1,0 +1,193 @@
+
+/* SELLER */
+.seller {
+    width: 70%;
+    margin: 0 auto;
+}
+.seller-intro {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.seller-img {
+    flex: 6;
+    padding: 3rem;
+}
+
+.seller-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.seller-details {
+    flex: 6;
+    padding: 8rem 3rem;
+}
+
+.seller-details h2 {
+    font-size: 8.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    letter-spacing: -.1rem;
+}
+
+.seller-details h2 span {
+    color: var(--primary-bg-color);
+}
+
+.seller-content {
+    text-align: center;
+    padding-bottom: 8rem;
+
+}
+
+.seller-content h4 {
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.seller-content h3 {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.seller-content_icons {
+    display: flex;
+    gap: 3rem;
+}
+
+.seller-content_icons span {
+    padding: 3rem;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+
+}
+
+.seller-content_icons span h5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.seller-icon {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: var(--primary-bg-color-dark);
+    color: white;
+    
+}
+
+.seller-icon_i {
+    font-size: 5rem;
+}
+
+/* NEW SELLER ACCOUNT*/
+
+.seller-account {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
+.seller-account h3 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.seller-account-form {
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid var(--border-color); */
+    border-radius: 6px;
+    box-shadow: 0 1px 2rem rgba(0, 0, 0, 12%);
+}
+
+.seller-account-form form {
+    width: 100%;
+}
+
+.seller-account-form input, .seller-account-form select {
+    display: block;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    margin-bottom: 2rem;
+    appearance: none;
+}
+
+.seller-account-form input:focus {
+    border: 1px solid var(--primary-bg-color);
+}
+
+.seller-account-form label {
+    display: block;
+    margin-bottom: .8rem;
+}
+
+.seller-account-form textarea {
+    height: 10rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.seller-account-form button {
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: var(--primary-bg-color);
+    color: var(--text-color-light);
+    border: none;
+    border-radius: 6px;
+    padding: 0 2rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.seller-account-form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seller-account-form label .add {
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-bg-color);
+    color: var(--text-color-light);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.outer-fill {
+    width: 100%;
+    height: 1rem;
+    border: 1px solid var(--primary-bg-color);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    overflow: hidden;
+
+}
+.inner-fill {
+    height: 100%;
+    background-color: var(--primary-bg-color);
+    transition: all .6s ease-in-out;
+}

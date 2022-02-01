@@ -1,0 +1,114 @@
+
+.home_content {
+    padding-bottom: 6rem;
+}
+
+.home_content-banner {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.411), transparent), url('../../../assets/images/slide01.png');
+    background-size: cover;
+    background-position:top;
+}
+.home_content-banner .container {
+    height: 70vh;
+    display: flex;
+    gap: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    margin-bottom: 5rem;
+}
+
+.home_content-banner-details {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.home_content-banner-details h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    /* color: black; */
+}
+
+.home_content-banner-details h2 {
+    letter-spacing: 0px;
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+.home_content-banner-details p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+    color: var(--text-color-light);
+}
+
+.home_content-banner-img {
+    flex: 5;
+    margin-right: 2rem;
+    text-align: center;
+}
+.home_content-banner-img img {
+    /* margin-top: -8rem; */
+    margin-bottom: -2.5rem;
+}
+
+.home_content-top-categories {
+    position: relative;
+    width: var(--width-80);
+    margin: 0 auto;
+}
+
+.home_content-category-list {
+    width: var(--width-80);
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.home_content-categories {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* CATEGORY ICONS */
+.category-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.category-icons-list {
+    text-align: center;
+    width: calc(100% / 5);
+    margin: 2rem 0;
+
+}
+
+.category-icons-list .icon {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #acacac;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.category-icons-list .icon:hover {
+    transform: scale(1.1);
+}
+
+.category-icons-list p {
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.category-icons-list:hover .icon{
+    color: var(--primary-bg-color);
+    transform: scale(1.1);
+}

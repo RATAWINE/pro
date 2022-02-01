@@ -1,0 +1,263 @@
+/* ORDERS NAV */
+.nav-active span:first-child {
+    color: var(--text-color-light);
+    font-weight: 600;
+    background-color: var(--primary-bg-color) !important;
+}
+.nav-active span:last-child {
+    color: var(--primary-bg-color) !important;
+    font-weight: 600;
+}
+
+.order-nav {
+    flex: 2;
+}
+
+.order-nav ul  {
+    padding: 0;
+    border-left: 1px solid var(--border-color);
+}
+
+.order-nav ul li {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-left: -2.5rem;
+}
+
+.order-nav ul li span:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: var(--border-color);
+    color: var(--text-color-light);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.order-nav ul li span:last-child {
+    color: rgb(170, 170, 170);
+}
+
+
+
+/* ORDER DETAILS */
+.order, .complete {
+    width: var(--width-80);
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: flex;
+    gap: 5rem;
+}
+.order-title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.order-details {
+    flex: 6;
+}
+
+.order-details li{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding: 2rem 0;
+}
+
+.order-details li span:first-child{
+    border-radius: 4px;
+    min-width: 30%;
+    height: 15rem;
+    background-color: var(--border-color);
+}
+
+.order-qty {
+    display: flex;
+    gap: 1rem;
+}
+
+.order-qty select {
+    border: 1px solid var(--border-color);
+    width: 5rem;
+    border-radius: 3px;
+}
+
+.order-content {
+    flex: 2.5;
+}
+
+.wrap {
+    box-shadow: 0 1px 1rem rgba(0,0,0,0.15);
+    padding: 2rem;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.wrap h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.wrap span {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.order-content .total {
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.order-checkout {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.order-payment-card label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.order-payment-card input {
+    display: block;
+    outline: none;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    height: 5rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+.order-payment-card span {
+    display: flex;
+    gap: 1rem;
+}
+
+.order-payment-labels {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    border: 1px solid var(--border-color);
+    border-bottom: none;
+}
+
+.order-payment-labels label {
+    cursor: pointer;
+    padding: 3rem;
+    text-align: center;
+    flex: 1;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.order-payment-labels label:last-child {
+    border-right: none;
+}
+
+
+.order-payment-form {
+    width: 100%;
+    padding: 3rem;
+    border: 1px solid var(--border-color);
+    border-top: none;
+    
+ }
+
+ .order-payment-label-active {
+     font-weight: 600;
+     background-color: #fff;
+     border-top: 5px solid var(--primary-bg-color);
+     border-bottom: none !important;
+ }
+
+
+/* COMPLETE PURCHASE */
+
+.complete-content {
+    flex: 6;
+    text-align: center;
+
+}
+
+.complete-contact {
+    flex: 3;
+}
+
+.complete-content-icon {
+    color: var(--primary-bg-color);
+    font-size: 12rem;
+    border: 1px solid var(--primary-bg-color);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.complete-contact-details {
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+}
+
+.complete-contact-details span {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.complete-contact-details h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.complete-contact-details .icon {
+    font-size: 2rem;
+    margin: 1rem;
+    color: var(--primary-bg-color)
+}
+
+.complete-contact-form {
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+}
+
+.complete-contact-form h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+   
+}
+
+.enquiry {
+    width: 100%;
+}
+
+.enquiry input, textarea {
+    width: 100%;
+    outline: none;
+    height: 5rem;
+    border: 1px solid var(--border-color);
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+}
+
+.enquiry input:focus, .enquiry textarea:focus {
+    border: 1px solid var(--primary-bg-color);
+}
+
+.enquiry textarea {
+    height: 100%;
+    padding: 1rem;
+}

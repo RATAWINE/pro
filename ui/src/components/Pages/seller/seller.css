@@ -1,0 +1,413 @@
+.s-card {
+    margin-top: 2rem;
+    padding: 4rem;
+    border-radius: 15px;
+    background-color: rgb(247, 247, 247);
+}
+
+.s-card h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.edit {
+    padding: 0.7rem;
+    border: 1px solid var(--primary-bg-color);
+    border-radius: 7px;
+    color: var(--primary-bg-color);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* .nav-slider {
+    width: 50%;
+} */
+
+.s-account_wrap {
+    width: var(--width-90);
+    margin: 0 auto;
+    display: flex;
+}
+
+.s-account-3 {
+    padding: 2rem 1rem;
+    width: 30%;
+}
+
+
+/* S-ACCOUNT-2 */
+
+.s-account-2 {
+    padding: 4rem;
+    width: 70%;
+}
+
+.s-account-2_container {
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    padding-bottom: 3rem;
+}
+
+.s-account-2_banner {
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.s-account-2_intro {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.s-account-2_intro span h3, .gig_form h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.s-account-2_intro span img {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -4rem;
+    margin-left: 3rem;
+}
+
+.s-account-2_intro span button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 2rem;
+    color: var(--text-color-light);
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    border: none;
+    background-color: var(--primary-bg-color);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.s-account-2_intro span:last-child {
+    margin-left: auto;
+}
+
+.s-account-2_nav {
+    background-color: rgb(247, 247, 247);
+    border-radius: 15px;
+    padding: .2rem .5rem;
+    width: 93%;
+
+}
+.s-account-2_nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 1rem .5rem;
+    padding: 1.2rem;
+    color: rgb(146, 146, 146);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.s-account_nav-icon {
+    font-size: 2rem;
+}
+
+.s-account-2_nav li:hover {
+    background-color: var(--primary-bg-color-light);
+    box-shadow: 0 1px .5rem rgba(0,0,0,0.12);
+    color: var(--text-color-dark) !important;
+}
+
+.s-account-2_nav .owl-nav {
+    top: 1.2rem;
+    right: -6rem;
+}
+.s-account-2_nav .owl-nav .owl-prev {
+    display: none;
+}
+.s-account-2_nav .owl-nav .owl-next {
+    padding: 1rem 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px .5rem rgba(0,0,0,0.12);
+}
+
+/* S-ACCOUNT-3 */
+
+.s-account-3 .notification {
+    border: 1px solid var(--border-color);
+    background-color: var(--primary-bg-color-light);
+}
+
+.s-account-3 .notification span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-account-3 .notification span .link {
+    color: var(--primary-bg-color);
+}
+
+/* DASHBOARD */
+
+.dashboard {
+    width: 100%;
+}
+.dashboard_abt {
+    display: flex;
+    gap: 2rem;
+}
+.dashboard_abt .s-card:first-child {
+    flex: 8;
+}
+.dashboard_abt .s-card:last-child {
+    flex: 4;
+    background-color: aliceblue;
+}
+.dashboard_abt span {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.dashboard_abt span h3 {
+    margin-bottom: 0;
+}
+.dashboard_abt .content span {
+    gap: 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dashboard_posts {
+    background-color: var(--primary-bg-color-light);
+    border: 1px solid var(--border-color);
+    padding: 3rem;
+}
+.dashboard_posts .owl-stage-outer {
+    padding: 2rem 1rem;
+}
+
+.dashboard_posts .owl-nav .owl-next {
+    padding: 1rem 1.5rem;
+    background: antiquewhite;
+    border-radius: 10px;
+}
+
+.dashboard_posts .owl-nav .owl-prev {
+    padding: 1rem 1.5rem;
+    background: transparent;
+    border-radius: 10px;
+}
+
+/* NEW GIG */
+
+.gig {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.gig_form {
+    padding: 5rem 6rem;
+    border-radius: 1rem;
+    box-shadow: 0 1px 2rem rgba(0, 0, 0, 12%);
+}
+
+.gig_form form label {
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+}
+
+.gig_form form input, .gig_form form select {
+    width: 100%;
+    height: 5.5rem;
+    padding: 1.5rem 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 2rem;
+    appearance: none;
+}
+
+.gig_form form input:focus {
+    border: 1px solid var(--primary-bg-color);
+}
+
+.gig_form form textarea {
+    height: 20rem;
+}
+
+.gig_form form span:first-child {
+    position: relative;
+    display: block;
+}
+
+.add_tag {
+    position: absolute;
+    top: 3.7rem;
+    right: 1rem;
+    font-size: 3.5rem;
+    color: var(--primary-bg-color);
+    cursor: pointer;
+}
+
+.gig_table {
+    border-collapse: collapse;
+    font-size: 1.4rem;
+    width: 100%;
+    border: 1px solid var(--border-color);
+}
+
+.gig_table tr {
+    border: 1px solid var(--border-color);
+}
+
+.gig_table tr td{
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+}
+
+.gig_table tr h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.gig_form .gig_pricing input, .gig_form .gig_pricing select {
+    width: 100%;
+    height: auto;
+    appearance: none;
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    border: none;
+
+}
+
+.gig_form .gig_pricing select {
+    text-align: center;
+    cursor: pointer;
+}
+
+.gig_form .gig_pricing input:focus {
+    border: none;
+}
+
+.gig_form input[type="checkbox"] {
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    display: grid;
+    place-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: #fff;
+    margin: 0;
+}
+
+.gig_form input[type="checkbox"]::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--primary-bg-color);
+  }
+  
+  .gig_form input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+
+  .gig_table tbody tr td:not(:first-child){
+      text-align: center;
+  }
+
+  /* GALLERY    */
+  .gig_gallery input[type='file'] {
+      display: none;
+  }
+  .gig_gallery button:last-child {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .gallery_preview {
+      width: 100%;
+      height: 20rem;
+      border-radius: 10px;
+      border: 2px dashed var(--border-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 3rem;
+  }
+
+  .gallery_preview span {
+      display: inline;
+      font-weight: bold;
+      text-decoration: underline;
+      cursor: pointer;
+      color: var(--primary-bg-color);
+  }
+
+  .gallery_preview p:last-child {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  .gallery_preview_icon {
+      font-size: 4.5rem;
+      color: rgb(173, 173, 173);
+      margin-bottom: 1rem;
+  }
+
+  .gallery_preview_list li {
+    list-style-type: none ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .gallery_preview_list li p:last-child {
+      font-size: 1.3rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .gallery_preview_list li:hover {
+      border: 1px solid var(--primary-bg-color);
+  }
+
+  .gallery_preview_list .close {
+      font-size: 2rem;
+      cursor: pointer;
+      background-color: rgb(236, 236, 236);
+      padding: .4rem;
+      border-radius: 50px;
+  }
+
+  .gig_complete {
+      display: block;
+      text-align: center;
+  }
+  .gig_complete_icon {
+      font-size: 8rem;
+      color: var(--primary-bg-color);
+  }

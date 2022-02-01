@@ -1,0 +1,25 @@
+.review-item {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.review-item span img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.review-item span:first-child{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.review-item span p:nth-of-type(2) {
+    color: var(--primary-bg-color);
+}
+
+.review-item span span {
+    margin-left: auto;
+}

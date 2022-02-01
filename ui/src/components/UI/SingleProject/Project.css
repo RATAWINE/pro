@@ -1,0 +1,209 @@
+
+.project-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+/* OVERVIEW */
+.overview {
+    margin-bottom: 3rem;
+}
+.overview h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.overview-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: rgb(192, 192, 192);
+}
+
+.overview-title {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.overview-btn {
+    margin-left: auto;
+}
+
+.overview-gallery-preview {
+    height: 45rem;
+    border-radius: 6px;
+    background-color: rgb(226, 221, 221);
+}
+
+/* PACKAGES */
+
+.package-table {
+    border-collapse: collapse;
+    font-size: 1.4rem;
+    width: 100%;
+    border: 1px solid var(--border-color);
+}
+
+.package-table tr {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.package-table tr td {
+    padding: 2rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.package-table tr:first-child td, 
+.package-table tbody tr td:first-child {
+    text-align: left;
+}
+
+.package-table tr td h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.package-table tr td:first-child {
+    width: 25%;
+}
+
+.package-table tfoot tr td, .package-table tbody tr td:not(:first-child) {
+    text-align: center !important;
+}
+
+
+/* PACKAGES TABS */
+
+.active-tab {
+    border-bottom: 3px solid var(--primary-bg-color);
+    color: var(--primary-bg-color);
+}
+.package-tab_labels {
+    display: flex;
+    border: 1px solid var(--border-color);
+
+}
+
+.package-tab_labels label {
+   flex: 1;
+   text-align: center;
+   padding: 1.7rem;
+   border-right: 1px solid var(--border-color);
+   cursor: pointer;
+}
+
+.package-tab_labels label:nth-of-type(3){
+    border-right: none;
+}
+
+.package-tab_content {
+    padding: 3rem 2rem;
+    border: 1px solid var(--border-color);
+    border-top: none;
+}
+
+.package-tab_content span:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.package-tab_content span:nth-of-type(2) {
+    display: block;
+    margin-bottom: 2rem;
+   
+}
+
+.package-tab_content span:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    margin-top: 2rem;
+    padding: 2rem 0;
+    font-weight: 600;
+}
+
+.package-tab_content span:nth-of-type(5) {
+    margin-top: 3rem;
+    text-align: center;
+    display: block;
+}
+
+.package-tab_content span:nth-of-type(4) {
+    display: block;
+    padding-top: 1rem;
+}
+
+.package-tab_includes p {
+    margin: .6rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* DESCRIPTION */
+
+.desc {
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+/* ABOUT */
+
+.abt-header {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.abt-header span:nth-of-type(1) {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.abt-details {
+    display: flex;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.abt-details span {
+    margin-right: 4rem;
+}
+
+.abt-content {
+    padding: 2rem 0;
+}
+
+
+/* FAQS */
+
+.faq-content {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2rem;
+}
+
+.faq-content span {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
+
+.faq-content span h4 {
+   font-size: 1.7rem;
+   font-weight: 600;
+   color: var(--text-color);
+}
