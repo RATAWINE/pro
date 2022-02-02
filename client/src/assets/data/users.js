@@ -1,4 +1,4 @@
-import Image from '../../assets/images/tech/fullstack.jpg'
+import Image from '../images/tech/fullstack.jpg'
 
 export const users = [
     {
